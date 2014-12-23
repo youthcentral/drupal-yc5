@@ -1,0 +1,28 @@
+#header{
+
+	background-color:#ffcc00;
+	border:2px solid white;
+	height:200px;
+
+}
+
+
+#yclogo{
+	
+	padding:10px;
+	border:1px solid #fff;
+	width:405px;
+	
+	@media all and (max-width: 480px){
+		padding:0px;
+		border:2px solid red;
+		width:200px;
+	}
+}
+
+
+.region-header{
+	border:3px dotted orange;
+	padding:0;
+	margin:0;
+}
